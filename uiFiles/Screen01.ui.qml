@@ -13,12 +13,6 @@ Rectangle {
 
     color: Constants.backgroundColor
 
-    Text {
-        text: qsTr("Hello BlueRovUI")
-        anchors.centerIn: parent
-        font.family: Constants.font.family
-    }
-
     Rectangle {
         id: rectangle
         color: "#eeeded"
